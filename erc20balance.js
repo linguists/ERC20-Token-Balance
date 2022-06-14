@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
         window.web3 = new Web3(web3.currentProvider);
     } else {
         console.log('No Web3 Detected... using HTTP Provider')
-        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/<APIKEY>"));
+        window.web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.aurora.dev"));
     }
 })
 
